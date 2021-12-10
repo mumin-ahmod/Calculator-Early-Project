@@ -16,19 +16,21 @@ class _MyCalculatorState extends State<MyCalculator> {
       appBar: AppBar(
         title: Text(
           "Murad's Calculator",
-          style: GoogleFonts.bebasNeue(textStyle: TextStyle(fontWeight: FontWeight.bold, letterSpacing: 2)),
+          style: GoogleFonts.bebasNeue(
+              textStyle:
+                  TextStyle(fontWeight: FontWeight.bold, letterSpacing: 2)),
         ),
         centerTitle: true,
       ),
       body: SimpleCalculator(
         theme: CalculatorThemeData(
-          commandStyle: GoogleFonts.bebasNeue(fontSize: 30, color: Colors.black87),
+          commandStyle:
+              GoogleFonts.bebasNeue(fontSize: 30, color: Colors.black87),
           numStyle: GoogleFonts.bebasNeue(fontSize: 30, color: Colors.black87),
-          operatorStyle: GoogleFonts.bebasNeue(fontSize: 30, color: Colors.white),
-
-          displayStyle: GoogleFonts.bebasNeue(fontSize: 50, color: Colors.black),
-
-
+          operatorStyle:
+              GoogleFonts.bebasNeue(fontSize: 30, color: Colors.white),
+          displayStyle:
+              GoogleFonts.bebasNeue(fontSize: 50, color: Colors.black),
         ),
       ),
     );

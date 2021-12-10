@@ -44,7 +44,9 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             Text(
               "Murads Calculator",
-              style: GoogleFonts.oswald(textStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 19)),
+              style: GoogleFonts.oswald(
+                  textStyle:
+                      TextStyle(fontWeight: FontWeight.bold, fontSize: 19)),
             ),
           ],
         ),
